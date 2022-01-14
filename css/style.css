@@ -12,6 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+/*--------- Common css------- */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -119,4 +120,17 @@ nav{
 .navigation .card-icon{
     width: 24px;
     height: 24px;
+}
+/* main-top-section styles */
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-weight: 600;
+    display: inline-block;
+    font-size: 28px;
+    text-transform: inherit;
+    color: #3A3A3A;
+    border-bottom: 2px solid #FFFFFF;
+    margin: 50px 0;
 }
