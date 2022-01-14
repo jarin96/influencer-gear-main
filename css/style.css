@@ -85,7 +85,7 @@ nav{
 .banner-left h1{
     font-size: 45px;
     color:#3A3A3A;  
-    animation: sliding 1s ease-in-out 0.5s 20 alternate;
+    animation: sliding 1s ease-in-out 0.5s 10 alternate;
     animation-play-state:running;
     position: relative;
 }
@@ -114,4 +114,9 @@ nav{
     width: 440px;
     height: 414px;
     
+}
+/* navigation icon style */
+.navigation .card-icon{
+    width: 24px;
+    height: 24px;
 }
