@@ -139,5 +139,10 @@ nav{
       display: grid;
       gap: 30px;
       grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
       
+}
+.photo{
+   box-shadow: 0 10px 10px #8f8888;
+   padding: 25px;
 }
