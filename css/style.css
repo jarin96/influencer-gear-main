@@ -142,9 +142,21 @@ nav{
       justify-content: center;
       
 }
+
 .photo{
    box-shadow: 0 10px 10px #8f8888;
-   padding: 25px;
+   padding: 15px;
+}
+.fa-star.filled{
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
+}
+.fa-star.half-filled{
+    color:  #eea04de5;
+
+    width: 11.07px;
+   height: 10.32px;
 }
 /* See more button styles */
 .more .see-more{
@@ -160,4 +172,37 @@ nav{
     margin: 10px;
     
 }
+/* contact section  */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.contact-left img{
+    width: 100%;
+    border-radius: 50px;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text-field{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: inherit;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #E02C6D;
+}
+.contact, .section-title, .contact-title h1{
+    cursor: pointer;
+     color: #E02C6D;
+     animation: sliding 1s ease-in-out 0.5s 20 alternate;
+    animation-play-state:running;
+ }
+ 
 
