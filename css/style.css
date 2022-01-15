@@ -251,6 +251,15 @@ nav{
  padding: 0 10px;
 gap: 20px;   
 }
+ 
+/*------- navbar ------ */
+#nav-toggler{
+    display: none;
+}
+.nav-toggler-icon{
+    display: none;
+}
+
 /* media Quaties */
 /* Mobile Devices */
 /* Responsive css */
@@ -270,6 +279,9 @@ gap: 20px;
     .container{
         grid-template-columns: 1fr;
     }
+    .banner-right{
+        order: 2;
+    }
     .collections, .photo, .contact{
         grid-template-columns: 1fr;
     }
@@ -281,8 +293,36 @@ gap: 20px;
         
     }
   .banner-left{
-      order: 1;
+      order: 2;
       padding: 50px 0;
+  }
+  .nav-toggler-icon{
+      color: #E02C6D;
+      font-size: 30px;
+      display: block;
+  }
+  .navigation{
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      background-color: #FFFFFF;
+      padding: 20px 0;
+      transform: translateY(-360px);
+      transition: .5s ease-in-out;
+  }
+  .heading{
+      top: 100px;
+      height: 100px;
+      width: 100%;
+  }
+  .navigation li a{
+      color: #E02C6D;
+  }
+  #nav-toggler:checked ~ .navigation{
+    transform: translateY(0px);
   }
     
 }
